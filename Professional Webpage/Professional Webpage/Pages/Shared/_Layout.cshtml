@@ -6,6 +6,7 @@
     <title>My Web Space</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Professional_Webpage.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/project-view-styling.css" asp-append-version="true" />
 </head>
 <body>
     <header>
@@ -33,7 +34,9 @@
     </header>
     <div class="container">
         <main role="main" class="pb-3">
-            @RenderBody()
+            <section>
+                @RenderBody()
+            </section>
         </main>
     </div>
 

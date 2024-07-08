@@ -1,7 +1,12 @@
+html {
+    scrollbar-gutter: stable;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow: auto;
 }
 
 header {
@@ -40,6 +45,7 @@ nav ul {
 
 .container {
     padding: 20px;
+    scrollbar-gutter: stable;
 }
 
 .profile {

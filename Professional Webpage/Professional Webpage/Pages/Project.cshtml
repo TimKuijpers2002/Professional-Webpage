@@ -2,16 +2,28 @@
 @model Professional_Webpage.Pages.ProjectModel
 @{
 }
+<link rel="stylesheet" href="~/css/project-view-styling.css" asp-append-version="true"/>
+
 <div class="split-content">
     <div class="text-content">
-        <h2>Section Title</h2>
-        <p>This is a paragraph describing the content associated with the image on the right. You can add more text here to further elaborate on the topic.</p>
-        <p>Another paragraph providing more details about the topic. The text on the left will be aligned with the images on the right.</p>
-        <!-- Add more text as needed -->
+        <div id="medix-hub" class="project-text-item">
+            <h2>Section Title</h2>
+            <p>This is a paragraph describing the content associated with the image on the right. You can add more text here to further elaborate on the topic.</p>
+            <p>Another paragraph providing more details about the topic. The text on the left will be aligned with the images on the right.</p>
+        </div>
     </div>
     <div class="image-content">
-        <img src="~/images/example1.jpg" alt="Example Image 1">
-        <img src="~/images/example2.jpg" alt="Example Image 2">
-        <!-- Add more images as needed -->
+        <div id="medix-hub" class="project-images">
+            <img src="https://avatars.githubusercontent.com/u/7802525?s=48&v=4" title="GRPC" alt="GRPC" width="60" height="60" />&nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/csharp/csharp-original.svg" title="Csharp" alt="Csharp" width="60" height="60" />&nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/dotnetcore/dotnetcore-original.svg" title="dotnet" alt="dotnet" width="60" height="60" />&nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg" title="MSSQL" alt="MSSQL" width="60" height="60" />&nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original.svg" title="Docker" alt="Docker" width="60" height="60" />&nbsp;
+            <img src="https://raw.githubusercontent.com/kubernetes/kubernetes/9884746f0fd338c393d23dbb2a87d118a34fe5e5/logo/logo.svg" title="Kubernetes" alt="Kubernetes" width="60" height="60" />&nbsp;
+            <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/github/github-original.svg" title="Git" **alt="Git" width="60" height="60" />
+            <img src="https://avatars.githubusercontent.com/u/92540622?s=48&v=4" title="KrakenD" **alt="KrakenD" width="60" height="60" />
+            <img src="https://avatars.githubusercontent.com/u/4921466?s=48&v=4" title="KeyCloak" **alt="KeyCloak" width="60" height="60" />
+            <img src="https://avatars.githubusercontent.com/u/47359?s=48&v=4" title="Apache Cassandra" **alt="Apache Cassandra" width="60" height="60" />
+        </div>
     </div>
 </div>
